@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "monit-py"
+version = "0.1.0"
+description = ""
+authors = ["wind2sing <wind2sing@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+telethon = "^1.31.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
